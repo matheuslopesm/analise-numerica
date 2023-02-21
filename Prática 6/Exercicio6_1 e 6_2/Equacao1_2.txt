@@ -1,0 +1,23 @@
+Coloque na janela de comandos os comandos que possuem ">>" anterior a eles.
+
+>> x=[-1.455 0 0.762 1.178]
+x =
+
+  -1.45500   0.00000   0.76200   1.17800
+
+>> y=((e.^(x/2)).*(x.^2))-10
+y =
+
+   -8.9772  -10.0000   -9.1501   -7.4991
+
+>> m=4
+m =  4
+
+>> z=-0.83
+z = -0.83000
+
+>> Polinomio_Lagrange(m,x,y,z)
+
+r = -9.3396
+
+Erro = 0.2055
